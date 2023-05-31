@@ -1,0 +1,122 @@
+@media screen and (min-width:0) and (max-width:950px){
+	.content{padding:0 10px}
+	footer.content{padding:3px 0 0}
+	header.header .content{padding:30px 10px}
+	
+.one_half,
+.one_third,
+.two_third,
+.three_fourth,
+.one_fourth{position:relative;margin-right:4%;float:left;min-height:1px;height:auto!important;height:1px}
+	
+.one_half{width:48%}
+
+.last{margin-right:0!important;clear:right;vertical-align:middle;text-align:left;}	
+.one_third{width:30.6666%}
+	
+.two_third{width:65.3332%}
+	
+.one_fourth{width:22%}
+	
+.two_fourth{width:48%}
+	
+.three_fourth{width:74%}
+	
+.last{margin-right:0!important;clear:right}
+	
+.one_half 
+.one_half{margin-right:8.3333%;width:45.8333%}
+	
+.one_half 
+.one_third{margin-right:8.3333%;width:27.7778%}
+	
+.one_half 
+.two_third{margin-right:8.3333%;width:63.8889%}
+	
+.two_third 
+.one_third{margin-right:6.1224%;width:29.2517%}
+	
+.two_third 
+.two_third{margin-right:6.1224%;width:64.6258%}
+	
+.two_third 
+.one_fourth{margin-right:6.1224%;width:20.4082%}
+	
+.gallery 
+.gallery-item span.img{width:100%;height:auto;margin:0 0 0 -12px}
+	
+.gallery .gallery-item{width:33.3%}
+	
+.gallery .gallery-item a{min-height:100px;padding:0 0 10px 0}
+	
+.gallery .gallery-item a strong{padding:120% 0 0 0}
+	.gallery .gallery-item span:empty{display:none}
+	.gallery .gallery-item span.icon-camera{border:0}
+	.gallery .gallery-item span.icon-camera:before{height:auto;line-height:200%}
+	aside{float:none;width:100%}
+	.has_sidebar{width:auto}
+	ul.album{text-align:center;margin: 0 0 4em 0;}
+	ul.album li{display:inline-block;float:none}
+}
+@media only screen and (device-width:768px){
+	header.header nav.main a{padding:0 10px}
+}
+@media screen and (min-width:0) and (max-width:1030px){
+	.one_half,.one_third,.two_third,.three_fourth,.one_fourth{float:none;width:auto;margin-right:0}
+	.timeline .post{font-size:.8em;line-height:1.5em}
+	.timeline .post .post_content .box{padding:15px 5px 1px 5px}
+	.timeline .post.odd .post_content{float:left;padding:0 20px 0 0}
+	.timeline .post.odd .data{float:right;padding:12px 0 0 20px}
+	.timeline .post.even .post_content{float:right;padding:0 0 0 20px}
+	.timeline .post.even .data{float:left;text-align:right;padding:12px 20px 0 0}
+	.timeline .post .data .date:after{left:-30px}
+	.timeline .post.even .data .date:after{right:-30px}
+	.timeline ul.album.scrollable li{width:auto!important;float:left!important;margin-bottom:5px!important}
+	.timeline ul.album.scrollable li a img{width:40px;height:40px}
+	.timeline .elastislide-wrapper{padding:0}
+	.timeline .elastislide-wrapper nav{display:none}
+	header.header{text-align:center}
+	header.header nav.social{float:none}
+	header.header #logo{float:none;margin:0}
+	header.header #logo span.img,header.header h1#logo a{display:block;margin:0;padding:0}
+	header.header #logo span.img:after,header.header h1#logo a:after{display:none;margin:0}
+	header.header #logo span.subtitle{border-top:1px solid #c7c6c4;display:inline-block;padding:4px 0 0 0;margin:1.5em 0 1em 0}
+	header.header #logo span.subtitle:before{content:'';width:100%;display:block;border-top:1px solid #c7c6c4;overflow:hidden;margin:0 0 1em 0}
+	header.header nav.main a.mobile_menu{display:block}
+	header.header nav.main ul{background:0;border:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;height:auto;max-height:0;opacity:0;-webkit-transition:all .4s ease-out;-moz-transition:all .4s ease-out;transition:all .4s ease-out}
+	header.header nav.main{background:#f9f8f5;overflow:hidden}
+	header.header nav.main.show ul{max-height:600px;opacity:1;visibility:visible}
+	header.header nav.main ul li{display:block;margin:0;padding:0;border-top:1px solid #c7c6c4}
+	header.header nav.main ul li:hover{background:rgba(255,255,255,0.2)}
+	header.header nav.main ul li a{display:block}
+	header.header nav.main ul li:after{display:none}
+    .section-title h1{padding:0 10px;font-size:20px}
+	ol.commentlist li.comment article{padding:10px 10px 1px 10px}
+	#respond #commentform p{padding:0 15px 0 0}
+	#respond #commentform p.comment-form-author,#respond #commentform p.comment-form-email,#respond #commentform p.comment-form-url{float:none;width:100%}
+	.box{padding:10px 10px 1px 10px}
+	#respond #commentform{padding:15px 0 1px 15px}
+	ol.commentlist ul.children{margin:0 0 0 25px}
+	ol.commentlist li.comment article header span.time{display:block}
+	ol.commentlist li.comment article header span.comment-author{border:0}
+	ol.commentlist li.comment article header a.comment-reply-link{position:absolute;right:10px;top:10px}
+	#respond #commentform p.form-submit{padding:0 10px 0 0}
+	#wrapper div.wpcf7 p.half{float:none;width:100%;margin:0 0 25px 0!important}
+}
+@media screen and (min-width:0) and (max-width:590px){
+	.gallery{padding:0 10px}
+	.gallery .gallery-item span.img{border-width:3px;width:64px;height:64px}
+	.gallery .gallery-item{width:100%;float:none;margin:0}
+	.gallery .gallery-item a{min-height:80px;margin:10px 0 10px 0;padding:0}
+	.gallery .gallery-item a strong{padding:15px 0 0 100px;text-align:left}
+	.gallery .gallery-item a em{padding:0 0 0 100px;text-align:left}
+	.gallery .gallery-item span.icon-camera::before{line-height:100%}
+	.gallery .gallery-item span.img.icon-camera{background:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
+	#wrapper ul.feature_list.big li,#wrapper ul.feature_list.small li{float:none;width:100%}
+	#wrapper ul.feature_list.small.preview li{width:50%;float:left}
+}
+@media screen and (min-width:0) and (max-width:390px){
+	ul.album{margin:0 -5px 4em -5px}
+	ul.album li{width:auto;height:auto;margin:5px}
+	ul.album li a img{width:120px;height:120px}
+}

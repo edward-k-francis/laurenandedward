@@ -1,0 +1,128 @@
+ body {
+	    	font-size:14px;
+	    	line-height: 22px;
+	    		    	font-family: Ubuntu, sans-serif;
+	    		    }
+	    
+				h1,h2,h3,h4,h5,h6,.header-font,blockquote {font-family: Garamond, "Hoefler Text", Times New Roman, Times, serif;}
+				
+				.section-title h1, span.dropcap {font-family: Garamond, "Hoefler Text", Times New Roman, Times, serif;}
+				
+				header.header nav.main a {font-family: Oswald, sans-serif;}
+				
+				
+		/* Primary Color */
+		.primary-color,
+		.menu li[class^="icon-"] a:hover,
+		.menu li[class^="icon-"]:hover:before,
+		header.header nav.main a:hover,
+		header.header nav.main li.current-menu-item > a,
+		header.header nav.main li.current-menu-ancestor > a,
+		header.header nav.main li.current_page_item > a,
+		header.header nav.main li.current_page_ancestor > a,
+		header.header nav.main li.current_page_parent > a,
+		header.header nav.main li.current_page_parent > a,
+		header.header nav.main li.current > a,
+		.box.box-icon:before,
+		.gallery .gallery-item a:hover strong,
+		ol.commentlist li.comment article header a.comment-reply-link:hover,
+		.timeline a.link:hover,
+		.timeline a.link:hover:before,
+		.post_list article .entry-title h1 a:hover {color:#cfb6e9}
+		
+		.primary-color-bg,
+		.button,input[type=submit],
+		.section-title h1,
+		.tagcloud a,
+		.social_icon:hover,
+		.timeline .line,
+		.timeline span.year {background-color: #cfb6e9}
+		
+		.primary-color-border,
+		.menu li[class^="icon-"] a:hover,
+		.timeline .post .data .date:after {border-color: #cfb6e9}
+		
+		.section-title h1:before, .section-title h1:after {border-color: #a591ba;}
+		.section-title h1 span:before, .section-title h1 span:after {border-color: transparent transparent #a591ba transparent;}
+		/* Primary Color */
+		
+		/* Text Color */
+		body,
+		.gallery-summary em {color:#6b6a67}
+		/* Text Color */
+		
+		/* Title Color */
+		h1,h2,h3,h4,h5,h6,
+		header.header nav.main a,
+		.box.recent_posts li a strong,
+		.gallery .gallery-item a strong,
+		.elastislide-wrapper nav span:hover,
+		.widget_recent_entries ul li a,
+		.tabs nav a,
+		.toggle a.tab_title,
+		ol.commentlist li.comment article header span.comment-author,
+		#respond h3,
+		blockquote {color:#45433e}
+		
+		#wrapper ul.feature_list.big li h2:before,
+		#wrapper ul.feature_list.small li h2:before,
+		.title-with-icon.rounded:before {background-color: #45433e}
+		
+				/* Title Color */
+		
+		/* Secondary Color */
+		h3,
+		.timeline a.link:before,
+		blockquote,
+		.elastislide-wrapper nav span,
+		.post_list .entry-meta li,
+		.gallery .gallery-item a em,
+		footer .copy {color: #b1b0ac;}
+		
+		span.dropcap.v2,
+		.social_icon,
+		.timeline .post .data .date,
+		.timeline .post .data .date:before,
+		.ajax-load-posts a {background-color: #b1b0ac;}
+		/* Secondary Color */
+		
+		/* Box Color */
+		.box,
+		#wrapper div.wpcf7,
+		.widget_recent_entries ul,
+		.tabs .panes,
+		.toggle,
+		ol.commentlist li.comment article,
+		ol.commentlist li.comment article:before,
+		#respond #commentform,
+		.timeline .post .post_content .box:before,
+		.post_list article .box.post-content:before,
+		#searchform input {background-color: #ffffff}
+		
+				/* Box Color */
+		
+		/* Body BG Color */
+		body {
+			background: #eeeeee ;
+					}
+		
+					.timeline .post:last-child:before,
+			.hr.top a,
+			.timeline .post .data .date:after {background-color: #eeeeee;}
+			
+			.timeline span.year {border-color: #eeeeee;}
+			
+			.timeline .post .data .date:after {
+				-moz-box-shadow: 0 0 0 5px #eeeeee;
+				-webkit-box-shadow: 0 0 0 5px #eeeeee;
+				box-shadow: 0 0 0 5px #eeeeee;
+			}
+				
+		/* Body BG Color */
+		
+				
+
+
+.section-title h1, span.dropcap {font-family: 'caslon-it', 'Garamond';}
+header.header nav.main a {font-family: 'interstate', 'Oswald';}
+h1,h2,h3,h4,h5,h6,.header-font,blockquote {font-family: 'interstate', 'Oswald'; letter-spacing:-1px}

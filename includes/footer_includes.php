@@ -1,0 +1,3 @@
+<script type='text/javascript' src='<?php echo $link_address;?>includes/themes/js/resize.js'></script>
+<link rel='stylesheet' id='options_typography_Ubuntu-css'  href='http://fonts.googleapis.com/css?family=Ubuntu:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' type='text/css' media='all' />
+<link rel='stylesheet' id='options_typography_Oswald-css'  href='http://fonts.googleapis.com/css?family=Oswald:400,700' type='text/css' media='all' />

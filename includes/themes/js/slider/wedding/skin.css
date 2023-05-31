@@ -1,0 +1,36 @@
+/* LayerSlider Full Width Skin */
+.ls-wedding.ls-container-fullscreen{background-color:black!important;width:100%!important}
+.ls-wedding .ls-playvideo{width:50px;height:50px;margin-left:-25px;margin-top:-25px}
+.ls-wedding .ls-playvideo,.ls-wedding .ls-nav-start,.ls-wedding .ls-nav-stop,.ls-wedding .ls-fullscreen,.ls-wedding .ls-loading-container{background-image:url(skin.png)}
+.ls-wedding .ls-playvideo{background-position:-300px -150px}
+.ls-wedding .ls-playvideo:hover,.ls-wedding .ls-vpcontainer:hover .ls-playvideo{background-position:-375px -150px}
+.ls-wedding .ls-nav-start{background-position:-300px 0}
+.ls-wedding .ls-nav-start:hover,.ls-wedding .ls-nav-start-active{background-position:-300px -75px}
+.ls-wedding .ls-nav-stop{background-position:-450px 0}
+.ls-wedding .ls-nav-stop:hover,.ls-wedding .ls-nav-stop-active{background-position:-450px -75px}
+.ls-wedding .ls-nav-prev,.ls-wedding .ls-nav-next{z-index:10000;position:absolute;width:50px;height:60px;top:50%!important;margin:-30px 25px}
+.ls-wedding .ls-nav-prev{left:0}
+.ls-wedding .ls-nav-next{right:0}
+.ls-wedding .ls-nav-prev:before,.ls-wedding .ls-nav-next:before{font-family:'entypo';font-style:normal;font-weight:normal;speak:none;display:block;text-align:center;font-size:75px;color:rgba(0,0,0,0.4);position:absolute;left:0;top:0;width:50px;height:60px;line-height:60px}
+.ls-wedding .ls-nav-next:hover:before,.ls-wedding .ls-nav-prev:hover:before{color:rgba(0,0,0,0.9)}
+.ls-wedding .ls-nav-prev:before{content:'\e75d'}
+.ls-wedding .ls-nav-next:before{content:'\e75e'}
+.ls-wedding .ls-bottom-slidebuttons,.ls-wedding .ls-bottom-slidebuttons a,.ls-wedding .ls-nav-sides{display:inline-block}
+.ls-wedding .ls-nav-start,.ls-wedding .ls-nav-stop{display:none}
+.ls-wedding .ls-bottom-slidebuttons{padding:6px 0 0 0}
+.ls-wedding .ls-bottom-slidebuttons a{background:#000;background:rgba(0,0,0,0.1);-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;text-indent:-2000em;margin:0 5px;border:2px solid rgba(0,0,0,0.2)!important;-webkit-transition:all ease-in-out .3s;-moz-transition:all ease-in-out .3s;-ms-transition:all ease-in-out .3s;-o-transition:all ease-in-out .3s;transition:all ease-in-out .3s;width:8px;height:8px}
+.ls-wedding .ls-bottom-slidebuttons a.ls-nav-active{background:rgba(0,0,0,0.5)}
+.ls-wedding .ls-nav-sides{width:0}
+.ls-wedding .ls-loading-container{width:40px;height:40px;margin-left:-20px;margin-top:-20px;background-position:-450px -150px}
+.ls-wedding .ls-loading-indicator{width:22px;height:22px;margin-top:9px;background-image:url(loading.gif)}
+.ls-wedding .ls-fullscreen{width:30px;height:30px;right:10px;top:10px;background-position:-525px -150px}
+.ls-wedding .ls-fullscreen:hover{background-position:-525px -190px}
+body .infoBlock.caption{width:350px;padding-bottom:0;background:#FFF;background:hsla(0,0,100%,.8);overflow:hidden;padding:20px}
+body .infoBlockLeftBlack.caption{color:#FFF;background:#000;background:rgba(0,0,0,.75);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body .infoBlock h4{font-size:20px;line-height:1.2;margin:0;padding-bottom:3px}
+body .infoBlock p{font-size:14px;margin:4px 0 0}
+body .infoBlock a{color:#FFF;text-decoration:underline}
+.rsLink{left:0;top:0;position:absolute;width:100%;height:100%;display:block;z-index:20;background:url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);-webkit-backface-visibility:hidden}
+body .infoBlock.html{position:absolute;left:0;top:0;width:100%;height:100%}
+.home .weddingSlider{border-bottom:1px solid #c7c6c4;border-color:rgba(0,0,0,0.2)}
+.weddingSlider{margin:0 0 2em 0}

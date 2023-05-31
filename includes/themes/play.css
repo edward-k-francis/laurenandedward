@@ -1,0 +1,22 @@
+#container {
+    position: relative;
+    display: inline-block;
+    border: 1px solid green;
+}
+#container * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#image {
+    z-index: 9;
+    text-align: center;
+    border: 1px solid blue;
+}
+#play {
+    background: url('../../images/icon/play.png') center center no-repeat;
+    margin: -240px 10px 0 0;
+    height: 140px;
+    position: relative;
+    z-index: 10;
+}
